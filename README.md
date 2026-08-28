@@ -52,8 +52,13 @@ php artisan vendor:publish --tag="utils-views"
 ## Usage
 
 ```php
-$alexManase\Utils = new AlexManase\AlexManase\Utils();
-echo $alexManase\Utils->echoPhrase('Hello, AlexManase!');
+use AlexManase\Utils\Facades\ClassNames;
+
+echo ClassNames::add(['btn', 'btn-primary' => true, 'btn-disabled' => false]);
+// btn btn-primary
+
+echo ClassNames::make()->add('btn')->add(['btn-primary' => true]);
+// btn btn-primary
 ```
 
 ## Testing
