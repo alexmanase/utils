@@ -16,6 +16,10 @@ composer require alexmanase/utils
 
 ## Usage
 
+### `ClassNames` facade
+
+Inspired by [Livewire Flux](https://github.com/livewire/flux/blob/main/src/FluxManager.php#L84-L89)'s class-merging approach.
+
 ```php
 use AlexManase\Utils\Facades\ClassNames;
 
