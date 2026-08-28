@@ -1,7 +1,7 @@
 # This is my package utils
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/alexmanase/utils.svg?style=flat-square)](https://packagist.org/packages/alexmanase/utils)
-[![GitHub Tests Action Status](https://github.com/spatie/package-utils-laravel/actions/workflows/run-tests.yml/badge.svg)](https://github.com/alexmanase/utils/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Tests Action Status](https://github.com/alexmanase/utils/actions/workflows/run-tests.yml/badge.svg)](https://github.com/alexmanase/utils/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/alexmanase/utils.svg?style=flat-square)](https://packagist.org/packages/alexmanase/utils)
 
 This package contains some "utils" that I often use in my Laravel projects.
