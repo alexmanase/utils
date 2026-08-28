@@ -1,7 +1,7 @@
 <?php
 
 use AlexManase\Utils\ClassNamesManager;
-use AlexManase\Utils\Facades\ClassNamesFacade;
+use AlexManase\Utils\Facades\ClassNames as ClassNamesFacade;
 use AlexManase\Utils\Support\ClassBuilder;
 
 it('builds css classes through the facade', function () {

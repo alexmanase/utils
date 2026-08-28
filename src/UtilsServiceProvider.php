@@ -2,7 +2,7 @@
 
 namespace AlexManase\Utils;
 
-use AlexManase\Utils\Facades\ClassNamesFacade;
+use AlexManase\Utils\Facades\ClassNames;
 use Illuminate\Foundation\AliasLoader;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -21,7 +21,7 @@ class UtilsServiceProvider extends PackageServiceProvider
 
         AliasLoader::getInstance()->alias(
             'ClassNames',
-            ClassNamesFacade::class,
+            ClassNames::class,
         );
     }
 }

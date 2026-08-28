@@ -62,7 +62,7 @@
                 "AlexManase\\Utils\\UtilsServiceProvider"
             ],
             "aliases": {
-                "ClassNames": "AlexManase\\Utils\\Facades\\ClassNamesFacade"
+                "ClassNames": "AlexManase\\Utils\\Facades\\ClassNames"
             }
         }
     },
