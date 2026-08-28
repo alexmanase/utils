@@ -20,7 +20,7 @@ class UtilsServiceProvider extends PackageServiceProvider
         $this->app->singleton(ClassNamesManager::class);
 
         AliasLoader::getInstance()->alias(
-            'Classes',
+            'ClassNames',
             ClassNamesFacade::class,
         );
     }

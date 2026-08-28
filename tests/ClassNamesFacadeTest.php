@@ -22,8 +22,18 @@ it('builds css classes through the facade', function () {
         ->and((string) $result)->toBe('btn btn-primary');
 });
 
-it('registers the "Classes" alias for the facade', function () {
-    expect(class_exists('Classes'))->toBeTrue()
-        ->and(is_a('Classes', ClassNamesFacade::class, true))->toBeTrue()
-        ->and((string) Classes::make('btn'))->toBe('btn');
+it('registers the "ClassNames" alias for the facade', function () {
+    expect(class_exists('ClassNames'))->toBeTrue()
+        ->and(is_a('ClassNames', ClassNamesFacade::class, true))->toBeTrue()
+        ->and((string) ClassNames::make('btn'))->toBe('btn');
+});
+
+it('builds css classes via ClassNames::make()->add()', function () {
+    expect((string) ClassNames::make()->add('btn')->add(['btn-primary' => true, 'btn-disabled' => false]))
+        ->toBe('btn btn-primary');
+});
+
+it('builds css classes via ClassNames::add() directly', function () {
+    expect((string) ClassNames::add(['btn', 'btn-primary' => true, 'btn-disabled' => false]))
+        ->toBe('btn btn-primary');
 });

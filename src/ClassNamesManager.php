@@ -14,4 +14,9 @@ class ClassNamesManager
             ? $builder
             : $builder->add($styles);
     }
+
+    public function add($styles)
+    {
+        return $this->make($styles);
+    }
 }
