@@ -1,6 +1,6 @@
 <?php
 
-namespace AlexManase\Utls\Support;
+namespace AlexManase\Utils\Support;
 
 use Illuminate\Support\Arr;
 use Stringable;

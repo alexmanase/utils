@@ -1,8 +1,8 @@
 <?php
 
-namespace AlexManase\AlexManase\Utils\Tests;
+namespace AlexManase\Utils\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
+use AlexManase\Utils\UtilsServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -15,7 +15,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            AlexManase\UtilsServiceProvider::class,
+            UtilsServiceProvider::class,
         ];
     }
 }

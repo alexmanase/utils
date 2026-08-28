@@ -2,6 +2,8 @@
 
 namespace AlexManase\Utils;
 
+use AlexManase\Utils\Support\ClassBuilder;
+
 class ClassNamesManager
 {
     public function make($styles = null)
